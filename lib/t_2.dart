@@ -14,7 +14,8 @@ Widget Drawer_Custom(a) {
             ),
             onPressed: () {
               print('t2 a : ${a}');
-              Ham(a);
+             a = Ham(a);
+
             },
           ),
           decoration: BoxDecoration(

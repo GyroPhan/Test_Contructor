@@ -20,7 +20,7 @@ class t_4_State extends State<t_4> {
         child: Text('${b}'),
         onPressed: () {
           setState(() {
-           b = b++;
+           b = b+1;
           });
         },
       ),
